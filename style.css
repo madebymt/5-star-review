@@ -1,0 +1,65 @@
+.review {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+
+.star{
+  unicode-bidi: bidi-override;
+  direction: rtl;
+
+}
+.star > span {
+  display: inline-block;
+  position: relative;
+  width: 1.6em;
+}
+.star > span:hover:before,
+
+.star > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+   transform: scale(2);
+   color: gold;
+
+}
+
+label {
+   font-size: 17px;
+   font-family: sans-serif;
+}
+
+input {
+    margin: 10px;
+    padding:10px;
+    width: 480px;
+    border-radius: 20px;
+    border:1px solid grey;
+}
+
+textarea {
+    margin: 10px;
+    border-radius: 20px;
+    border: 1px solid grey;
+}
+
+button {
+    background-color: black;
+    padding:12px;
+    border-radius: 10px;
+    color:white;
+    font-family: sans-serif;
+    width: 120px;
+    margin-left: 200px;
+}
+
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+
+}
+
+.button {
+    margin: 0 auto;
+}
